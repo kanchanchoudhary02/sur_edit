@@ -1,0 +1,1 @@
+export default function SectionHeading({title,subtitle}){return <div className="section-heading"><span className="heading-line"/><div><h2>{title}</h2>{subtitle&&<p>{subtitle}</p>}</div><span className="heading-line"/></div>}

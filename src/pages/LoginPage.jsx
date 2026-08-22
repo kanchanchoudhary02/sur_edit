@@ -1,0 +1,1 @@
+export default function LoginPage(){return <main className="simple-page"><div className="simple-card small"><h1>My Account</h1><p>Login will be connected with the MERN backend later.</p><form onSubmit={e=>e.preventDefault()}><input type="email" placeholder="Email Address"/><input type="password" placeholder="Password"/><button>Login</button></form></div></main>}
